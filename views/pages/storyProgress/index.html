@@ -1,0 +1,28 @@
+<!--故事冲刺进度-->
+<div class="wrapper">
+    {{> header}}
+    {{> sidebar}}
+    <div class="content-wrapper pad15A">
+        <div class="row pad15A border-bottom">
+            <div class="pull-left mrg25L pad10T">
+                <span class="">过滤器</span>
+            </div>
+            <div class="col-md-2">
+                <div class="form-group pad5T">
+                    <select id="filterList" class="form-control" style="width: 100%;">
+                        <!--<option value="10703" selected="selected">{{filterId}}11111XDW-Sprint2用户故事</option>-->
+                    </select>
+                </div>
+            </div>
+            <div class="pull-left">
+                <button type="button" class="btn btn-info mrg5T" onclick="searchReport()">查询</button>
+            </div>
+        </div>
+        <div class="row pad25A">
+            <div id="mainChart" style="height:600px;"></div>
+        </div>
+        <script src="/javascripts/story/index.js" type="text/javascript"></script>
+    </div>
+    {{> footer}}
+</div>
+<!-- ./wrapper -->

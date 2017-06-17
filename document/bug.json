@@ -1,0 +1,314 @@
+{
+    "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog,versionedRepresentations",
+    "id": "14617",
+    "self": "http://jira.iscs.com.cn/rest/api/2/issue/14617",
+    "key": "XDW-2859",
+    "fields": {
+        "parent": {
+            "id": "14236",
+            "key": "XDW-2551",
+            "self": "http://jira.iscs.com.cn/rest/api/2/issue/14236",
+            "fields": {
+                "summary": "CIT 3个小组联调for 正式Sprint2",
+                "status": {
+                    "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                    "description": "story，bug",
+                    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                    "name": "[处理中]",
+                    "id": "10117",
+                    "statusCategory": {
+                        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                        "id": 4,
+                        "key": "indeterminate",
+                        "colorName": "yellow",
+                        "name": "进行中"
+                    }
+                },
+                "priority": {
+                    "self": "http://jira.iscs.com.cn/rest/api/2/priority/3",
+                    "iconUrl": "http://jira.iscs.com.cn/images/icons/priorities/medium.svg",
+                    "name": "Medium",
+                    "id": "3"
+                },
+                "issuetype": {
+                    "self": "http://jira.iscs.com.cn/rest/api/2/issuetype/10003",
+                    "id": "10003",
+                    "description": "需要完成的任务",
+                    "iconUrl": "http://jira.iscs.com.cn/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+                    "name": "任务",
+                    "subtask": false,
+                    "avatarId": 10318
+                }
+            }
+        },
+        "fixVersions": [],
+        "customfield_11200": null,
+        "customfield_11201": null,
+        "customfield_10112": "2016-10-25",
+        "resolution": null,
+        "customfield_11202": null,
+        "customfield_10113": "2016-10-25",
+        "customfield_11203": null,
+        "customfield_10114": null,
+        "customfield_10104": null,
+        "customfield_10500": null,
+        "customfield_10501": null,
+        "customfield_10105": null,
+        "customfield_10106": null,
+        "customfield_10502": null,
+        "customfield_10107": null,
+        "customfield_10503": null,
+        "customfield_10900": null,
+        "customfield_10504": null,
+        "customfield_10901": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/10702",
+            "value": "DevTeam3",
+            "id": "10702"
+        },
+        "customfield_10109": null,
+        "customfield_10902": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/10703",
+            "value": "需求待澄清",
+            "id": "10703"
+        },
+        "customfield_10506": null,
+        "customfield_10905": null,
+        "customfield_10906": null,
+        "customfield_10908": ["通过代码静态测试[代码开发人员]", "通过代码审核[代码审核人员]", "通过单元测试、并满足代码行覆盖率要求[代码开发人员]", "通过CI持续集成[测试执行人员]", "满足所有AC要求[PO设置]", "开发文档已更新（如ER关系图、字段说明等）[代码开发人员]", "满足所有测试要点[测试执行人员]", "提供必要的产品使用说明[执笔人员]", "通过CIT环境测试[测试执行人员]", "经过产品架构的确认[对象架构专家]"],
+        "customfield_10909": ["故事对应的AC必须明确且得到确认[PO]", "DEV TEAM完成了用户故事story Point的估算[DEV TEAM]", "用户故事中非功能需求必须明确且得到确认[PO]", "用户故事对应的愿景/场景都已被罗列[PO]"],
+        "lastViewed": "2016-10-26T09:57:24.736+0800",
+        "priority": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/priority/2",
+            "iconUrl": "http://jira.iscs.com.cn/images/icons/priorities/high.svg",
+            "name": "High",
+            "id": "2"
+        },
+        "customfield_10100": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/10200",
+            "value": "CIT测试环境",
+            "id": "10200"
+        },
+        "customfield_10102": null,
+        "customfield_10103": null,
+        "labels": [],
+        "customfield_10610": null,
+        "customfield_10611": null,
+        "customfield_10612": null,
+        "customfield_10613": null,
+        "customfield_10614": 100.0,
+        "timeestimate": null,
+        "aggregatetimeoriginalestimate": null,
+        "versions": [],
+        "customfield_10615": "1.0",
+        "customfield_10616": null,
+        "customfield_10617": null,
+        "issuelinks": [],
+        "assignee": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/user?username=yejunjun",
+            "name": "yejunjun",
+            "key": "yejunjun",
+            "emailAddress": "yejunjun@iscs.com.cn",
+            "avatarUrls": {
+                "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=yejunjun&avatarId=11005",
+                "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=yejunjun&avatarId=11005",
+                "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=yejunjun&avatarId=11005",
+                "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=yejunjun&avatarId=11005"
+            },
+            "displayName": "叶君军",
+            "active": true,
+            "timeZone": "PRC"
+        },
+        "status": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/status/10600",
+            "description": "",
+            "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+            "name": "[待修复]",
+            "id": "10600",
+            "statusCategory": {
+                "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                "id": 2,
+                "key": "new",
+                "colorName": "blue-gray",
+                "name": "待办"
+            }
+        },
+        "components": [],
+        "customfield_11300": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/11100",
+            "value": "IOS",
+            "id": "11100",
+            "child": {
+                "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/11103",
+                "value": "8.0",
+                "id": "11103"
+            }
+        },
+        "customfield_11301": ["iPhone6s"],
+        "customfield_11302": "正常进入，能看到卡片，卡片正常点进去",
+        "customfield_10600": null,
+        "customfield_10601": null,
+        "customfield_10602": null,
+        "customfield_10603": null,
+        "aggregatetimeestimate": null,
+        "customfield_10604": null,
+        "customfield_10605": null,
+        "customfield_10606": null,
+        "customfield_10607": null,
+        "customfield_10609": null,
+        "creator": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhongchangwei",
+            "name": "zhongchangwei",
+            "key": "zhongchangwei",
+            "emailAddress": "zhongcangwei@iscs.com.cn",
+            "avatarUrls": {
+                "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10122",
+                "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10122",
+                "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10122",
+                "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10122"
+            },
+            "displayName": "钟昌为",
+            "active": true,
+            "timeZone": "PRC"
+        },
+        "subtasks": [],
+        "reporter": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhongchangwei",
+            "name": "zhongchangwei",
+            "key": "zhongchangwei",
+            "emailAddress": "zhongcangwei@iscs.com.cn",
+            "avatarUrls": {
+                "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10122",
+                "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10122",
+                "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10122",
+                "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10122"
+            },
+            "displayName": "钟昌为",
+            "active": true,
+            "timeZone": "PRC"
+        },
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 0
+        },
+        "customfield_10200": null,
+        "progress": {
+            "progress": 0,
+            "total": 0
+        },
+        "votes": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/issue/XDW-2859/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": []
+        },
+        "issuetype": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/issuetype/10200",
+            "id": "10200",
+            "description": "内测缺陷（手工）",
+            "iconUrl": "http://jira.iscs.com.cn/secure/viewavatar?size=xsmall&avatarId=11203&avatarType=issuetype",
+            "name": "内测缺陷（手工）",
+            "subtask": true,
+            "avatarId": 11203
+        },
+        "timespent": null,
+        "project": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/project/10000",
+            "id": "10000",
+            "key": "XDW",
+            "name": "网仓3号",
+            "avatarUrls": {
+                "48x48": "http://jira.iscs.com.cn/secure/projectavatar?avatarId=10011",
+                "24x24": "http://jira.iscs.com.cn/secure/projectavatar?size=small&avatarId=10011",
+                "16x16": "http://jira.iscs.com.cn/secure/projectavatar?size=xsmall&avatarId=10011",
+                "32x32": "http://jira.iscs.com.cn/secure/projectavatar?size=medium&avatarId=10011"
+            }
+        },
+        "customfield_11000": null,
+        "aggregatetimespent": null,
+        "customfield_11401": null,
+        "customfield_11400": null,
+        "customfield_10302": null,
+        "customfield_10303": null,
+        "customfield_10701": null,
+        "customfield_10703": null,
+        "customfield_10704": null,
+        "resolutiondate": null,
+        "workratio": -1,
+        "watches": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/issue/XDW-2859/watchers",
+            "watchCount": 1,
+            "isWatching": false
+        },
+        "created": "2016-10-25T11:17:12.000+0800",
+        "customfield_10300": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/10302",
+            "value": "严重",
+            "id": "10302"
+        },
+        "customfield_10301": null,
+        "customfield_11105": null,
+        "customfield_11106": null,
+        "updated": "2016-10-25T13:22:08.000+0800",
+        "timeoriginalestimate": null,
+        "description": "登陆服务认证账号10000243，点击长期任务，报错，直接退出登陆，见附件",
+        "customfield_11101": null,
+        "customfield_11103": null,
+        "customfield_11104": {
+            "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/10923",
+            "value": "手工测试",
+            "id": "10923"
+        },
+        "timetracking": {},
+        "customfield_10006": null,
+        "customfield_10800": null,
+        "customfield_10801": [],
+        "customfield_10009": "0|i00hmf:",
+        "attachment": [{
+            "self": "http://jira.iscs.com.cn/rest/api/2/attachment/11768",
+            "id": "11768",
+            "filename": "IMG_0076.PNG",
+            "author": {
+                "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhongchangwei",
+                "name": "zhongchangwei",
+                "key": "zhongchangwei",
+                "emailAddress": "zhongcangwei@iscs.com.cn",
+                "avatarUrls": {
+                    "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10122",
+                    "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10122",
+                    "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10122",
+                    "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10122"
+                },
+                "displayName": "钟昌为",
+                "active": true,
+                "timeZone": "PRC"
+            },
+            "created": "2016-10-25T11:14:27.000+0800",
+            "size": 376662,
+            "mimeType": "image/png",
+            "content": "http://jira.iscs.com.cn/secure/attachment/11768/IMG_0076.PNG",
+            "thumbnail": "http://jira.iscs.com.cn/secure/thumbnail/11768/_thumb_11768.png"
+        }],
+        "summary": "登陆服务认证账号10000243，点击长期任务，报错，直接退出登陆，见附件",
+        "customfield_10000": null,
+        "customfield_10001": null,
+        "customfield_10002": null,
+        "customfield_10004": ["com.atlassian.greenhopper.service.sprint.Sprint@23ab33d7[id=362,rapidViewId=233,state=ACTIVE,name=CIT/SIT 联调和测试,startDate=2016-09-12T09:51:09.111+08:00,endDate=2016-09-30T03:20:00.000+08:00,completeDate=<null>,sequence=362]"],
+        "customfield_10115": null,
+        "environment": null,
+        "customfield_10911": ["愿景名称:     ；投资额       ；投资要求："],
+        "customfield_10912": null,
+        "customfield_10913": null,
+        "duedate": "2016-10-25",
+        "comment": {
+            "startAt": 0,
+            "maxResults": 0,
+            "total": 0,
+            "comments": []
+        }
+    }
+}

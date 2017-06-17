@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>网仓Jira报表系统</title>
+
+    <!-- Bootstrap -->
+    <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="/stylesheets/login.css" rel="stylesheet" type="text/css" />
+    <link href="/plugins/toaster/toastr.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <!-- begin -->
+    <div id="login">
+        <div class="wrapper">
+            <div class="login">
+                <div class="container offset1 loginform">
+                    <div id="owl-login">
+                        <div class="hand"></div>
+                        <div class="hand hand-r"></div>
+                        <div class="arms">
+                            <div class="arm"></div>
+                            <div class="arm arm-r"></div>
+                        </div>
+                    </div>
+                    <div class="pad">
+                        <input type="hidden" name="_csrf" value="9IAtUxV2CatyxHiK2LxzOsT6wtBE6h8BpzOmk=">
+                        <div class="control-group">
+                            <div class="controls">
+                                <label for="username" class="control-label fa fa-user"></label>
+                                <input id="username" type="username" name="username" placeholder="帐号" tabindex="1" autofocus="autofocus" class="form-control input-medium">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <div class="controls">
+                                <label for="password" class="control-label fa fa-asterisk"></label>
+                                <input id="password" type="password" name="password" placeholder="密码" tabindex="2" class="form-control input-medium">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" tabindex="4" class="btn btn-primary" onclick="login()">登录</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/plugins/jQuery/jquery-2.2.3.min.js"></script>
+        <script src="/plugins/toaster/toastr.min.js"></script>
+        <script>
+            $(function() {
+
+                $('#login #password').focus(function() {
+                    $('#owl-login').addClass('password');
+                }).blur(function() {
+                    $('#owl-login').removeClass('password');
+                });
+            });
+
+            function login() {
+                var username = $('#username').val();
+                var password = $('#password').val();
+
+                $.ajax({
+                    url: '/doLogin',
+                    type: 'post',
+                    data: {
+                        username: username,
+                        password: password
+                    },
+                    dataType:'json', 
+                    success: function(data) {
+
+                        if (data.success) {
+                            location.href = '/';
+                        } else {
+                            toastr.error(data.msg);
+                        }
+                    }
+                });
+            }
+        </script>
+    </div>
+    <!-- end -->
+</body>
+
+</html>

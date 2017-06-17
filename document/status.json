@@ -1,0 +1,365 @@
+[{
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/1",
+    "description": "The issue is open and ready for the assignee to start work on it.",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/open.png",
+    "name": "已开启",
+    "id": "1",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "待办"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/4",
+    "description": "This issue was once resolved, but the resolution was deemed incorrect. From here issues are either marked assigned or resolved.",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/reopened.png",
+    "name": "再次开启",
+    "id": "4",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "待办"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10100",
+    "description": "eipc",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已评审]",
+    "id": "10100",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10102",
+    "description": "epic",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[拆分中]",
+    "id": "10102",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10103",
+    "description": "epic",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已拆分]",
+    "id": "10103",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10104",
+    "description": "共用",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已关闭]",
+    "id": "10104",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+    "description": "task",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[待处理]",
+    "id": "10105",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "待办"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10107",
+    "description": "bug",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已修复]",
+    "id": "10107",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10113",
+    "description": "story，bug",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已搁置]",
+    "id": "10113",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10114",
+    "description": "story，bug",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已取消]",
+    "id": "10114",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+    "description": "story，bug",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[处理中]",
+    "id": "10117",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+    "description": "story，bug",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已完成]",
+    "id": "10118",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10119",
+    "description": "story，bug",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已暂停]",
+    "id": "10119",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10126",
+    "description": "epic",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[调研分析中]",
+    "id": "10126",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10304",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已确认]",
+    "id": "10304",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10400",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[自动化中]",
+    "id": "10400",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10401",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已自动化]",
+    "id": "10401",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10402",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[用例作废，脚本待回滚]",
+    "id": "10402",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10403",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[自动化已作废]",
+    "id": "10403",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10404",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[用例执行中]",
+    "id": "10404",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10405",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[用例已通过]",
+    "id": "10405",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10502",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[价值评估中]",
+    "id": "10502",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10503",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[需求澄清中]",
+    "id": "10503",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10600",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[待修复]",
+    "id": "10600",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+        "id": 2,
+        "key": "new",
+        "colorName": "blue-gray",
+        "name": "待办"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10602",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已延迟]",
+    "id": "10602",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10603",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已RCA/EDA分析]",
+    "id": "10603",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+        "id": 3,
+        "key": "done",
+        "colorName": "green",
+        "name": "Done"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10604",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[已验证]",
+    "id": "10604",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}, {
+    "self": "http://jira.iscs.com.cn/rest/api/2/status/10700",
+    "description": "",
+    "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+    "name": "[预估已调整]",
+    "id": "10700",
+    "statusCategory": {
+        "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+        "id": 4,
+        "key": "indeterminate",
+        "colorName": "yellow",
+        "name": "进行中"
+    }
+}]

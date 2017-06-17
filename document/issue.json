@@ -1,0 +1,421 @@
+ {
+     "expand": "renderedFields,names,schema,transitions,operations,editmeta,changelog,versionedRepresentations",
+     "id": "12916",
+     "self": "http://jira.iscs.com.cn/rest/api/2/issue/12916",
+     "key": "XDW-1697",
+     "fields": {
+         "parent": {
+             "id": "12293",
+             "key": "XDW-1331",
+             "self": "http://jira.iscs.com.cn/rest/api/2/issue/12293",
+             "fields": {
+                 "summary": "做运单模板",
+                 "status": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                     "description": "task",
+                     "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                     "name": "[待处理]",
+                     "id": "10105",
+                     "statusCategory": {
+                         "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                         "id": 2,
+                         "key": "new",
+                         "colorName": "blue-gray",
+                         "name": "待办"
+                     }
+                 },
+                 "priority": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/priority/3",
+                     "iconUrl": "http://jira.iscs.com.cn/images/icons/priorities/medium.svg",
+                     "name": "Medium",
+                     "id": "3"
+                 },
+                 "issuetype": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/issuetype/10001",
+                     "id": "10001",
+                     "description": "不可再拆分的小故事",
+                     "iconUrl": "http://jira.iscs.com.cn/secure/viewavatar?size=xsmall&avatarId=11406&avatarType=issuetype",
+                     "name": "用户故事",
+                     "subtask": false,
+                     "avatarId": 11406
+                 }
+             }
+         },
+         "fixVersions": [],
+         "customfield_11200": null,
+         "customfield_10112": null,
+         "resolution": null,
+         "customfield_11201": null,
+         "customfield_10113": "2016-09-30",
+         "customfield_11202": null,
+         "customfield_11203": null,
+         "customfield_10500": null,
+         "customfield_10501": null,
+         "customfield_10502": null,
+         "customfield_10503": null,
+         "customfield_10107": null,
+         "customfield_10900": null,
+         "customfield_10504": null,
+         "customfield_10901": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/10700",
+             "value": "DevTeam1",
+             "id": "10700"
+         },
+         "customfield_10109": null,
+         "customfield_10902": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/10703",
+             "value": "需求待澄清",
+             "id": "10703"
+         },
+         "customfield_10506": null,
+         "customfield_10905": null,
+         "customfield_10906": null,
+         "customfield_10908": ["通过代码静态测试[代码开发人员]", "通过代码审核[代码审核人员]", "通过单元测试、并满足代码行覆盖率要求[代码开发人员]", "通过CI持续集成[测试执行人员]", "满足所有AC要求[PO设置]", "开发文档已更新（如ER关系图、字段说明等）[代码开发人员]", "满足所有测试要点[测试执行人员]", "提供必要的产品使用说明[执笔人员]", "通过CIT环境测试[测试执行人员]", "经过产品架构的确认[对象架构专家]"],
+         "customfield_10909": ["故事对应的AC必须明确且得到确认[PO]", "DEV TEAM完成了用户故事story Point的估算[DEV TEAM]", "用户故事中非功能需求必须明确且得到确认[PO]", "用户故事对应的愿景/场景都已被罗列[PO]"],
+         "lastViewed": "2016-09-23T17:00:02.065+0800",
+         "priority": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/priority/3",
+             "iconUrl": "http://jira.iscs.com.cn/images/icons/priorities/medium.svg",
+             "name": "Medium",
+             "id": "3"
+         },
+         "labels": [],
+         "customfield_10610": null,
+         "customfield_10611": null,
+         "customfield_10612": null,
+         "customfield_10613": null,
+         "customfield_10614": 100,
+         "timeestimate": 75600,
+         "aggregatetimeoriginalestimate": 151200,
+         "versions": [],
+         "customfield_10615": "1.0",
+         "customfield_10616": null,
+         "customfield_10617": null,
+         "issuelinks": [],
+         "assignee": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+             "name": "wangtao",
+             "key": "wangtao",
+             "emailAddress": "wangtao@iscs.com.cn",
+             "avatarUrls": {
+                 "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                 "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                 "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                 "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+             },
+             "displayName": "王涛",
+             "active": true,
+             "timeZone": "PRC"
+         },
+         "status": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+             "description": "story，bug",
+             "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+             "name": "[处理中]",
+             "id": "10117",
+             "statusCategory": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                 "id": 4,
+                 "key": "indeterminate",
+                 "colorName": "yellow",
+                 "name": "进行中"
+             }
+         },
+         "components": [],
+         "customfield_10600": null,
+         "customfield_10601": null,
+         "customfield_10602": null,
+         "customfield_10603": null,
+         "aggregatetimeestimate": 75600,
+         "customfield_10604": null,
+         "customfield_10605": null,
+         "customfield_10606": null,
+         "customfield_10607": null,
+         "customfield_10609": null,
+         "creator": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenxiangju",
+             "name": "chenxiangju",
+             "key": "chenxiangju",
+             "emailAddress": "chenxiangju@iscs.com.cn",
+             "avatarUrls": {
+                 "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=chenxiangju&avatarId=10972",
+                 "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=chenxiangju&avatarId=10972",
+                 "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=chenxiangju&avatarId=10972",
+                 "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=chenxiangju&avatarId=10972"
+             },
+             "displayName": "陈向聚",
+             "active": true,
+             "timeZone": "PRC"
+         },
+         "subtasks": [],
+         "reporter": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenxiangju",
+             "name": "chenxiangju",
+             "key": "chenxiangju",
+             "emailAddress": "chenxiangju@iscs.com.cn",
+             "avatarUrls": {
+                 "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=chenxiangju&avatarId=10972",
+                 "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=chenxiangju&avatarId=10972",
+                 "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=chenxiangju&avatarId=10972",
+                 "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=chenxiangju&avatarId=10972"
+             },
+             "displayName": "陈向聚",
+             "active": true,
+             "timeZone": "PRC"
+         },
+         "aggregateprogress": {
+             "progress": 75600,
+             "total": 151200,
+             "percent": 50
+         },
+         "customfield_10200": null,
+         "progress": {
+             "progress": 75600,
+             "total": 151200,
+             "percent": 50
+         },
+         "votes": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/issue/XDW-1697/votes",
+             "votes": 0,
+             "hasVoted": false
+         },
+         "worklog": {
+             "startAt": 0,
+             "maxResults": 20,
+             "total": 4,
+             "worklogs": [{
+                 "self": "http://jira.iscs.com.cn/rest/api/2/issue/12916/worklog/15706",
+                 "author": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                     "name": "wangtao",
+                     "key": "wangtao",
+                     "emailAddress": "wangtao@iscs.com.cn",
+                     "avatarUrls": {
+                         "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                         "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                         "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                         "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                     },
+                     "displayName": "王涛",
+                     "active": true,
+                     "timeZone": "PRC"
+                 },
+                 "updateAuthor": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                     "name": "wangtao",
+                     "key": "wangtao",
+                     "emailAddress": "wangtao@iscs.com.cn",
+                     "avatarUrls": {
+                         "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                         "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                         "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                         "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                     },
+                     "displayName": "王涛",
+                     "active": true,
+                     "timeZone": "PRC"
+                 },
+                 "comment": "将之前做的打印模板设计功能重新启用",
+                 "created": "2016-09-12T20:22:03.000+0800",
+                 "updated": "2016-09-12T20:22:03.000+0800",
+                 "started": "2016-09-12T20:21:00.000+0800",
+                 "timeSpent": "5h",
+                 "timeSpentSeconds": 18000,
+                 "id": "15706"
+             }, {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/issue/12916/worklog/15790",
+                 "author": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                     "name": "wangtao",
+                     "key": "wangtao",
+                     "emailAddress": "wangtao@iscs.com.cn",
+                     "avatarUrls": {
+                         "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                         "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                         "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                         "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                     },
+                     "displayName": "王涛",
+                     "active": true,
+                     "timeZone": "PRC"
+                 },
+                 "updateAuthor": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                     "name": "wangtao",
+                     "key": "wangtao",
+                     "emailAddress": "wangtao@iscs.com.cn",
+                     "avatarUrls": {
+                         "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                         "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                         "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                         "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                     },
+                     "displayName": "王涛",
+                     "active": true,
+                     "timeZone": "PRC"
+                 },
+                 "created": "2016-09-13T20:19:36.000+0800",
+                 "updated": "2016-09-13T20:19:36.000+0800",
+                 "started": "2016-09-13T20:02:00.000+0800",
+                 "timeSpent": "5h",
+                 "timeSpentSeconds": 18000,
+                 "id": "15790"
+             }, {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/issue/12916/worklog/15887",
+                 "author": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                     "name": "wangtao",
+                     "key": "wangtao",
+                     "emailAddress": "wangtao@iscs.com.cn",
+                     "avatarUrls": {
+                         "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                         "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                         "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                         "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                     },
+                     "displayName": "王涛",
+                     "active": true,
+                     "timeZone": "PRC"
+                 },
+                 "updateAuthor": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                     "name": "wangtao",
+                     "key": "wangtao",
+                     "emailAddress": "wangtao@iscs.com.cn",
+                     "avatarUrls": {
+                         "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                         "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                         "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                         "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                     },
+                     "displayName": "王涛",
+                     "active": true,
+                     "timeZone": "PRC"
+                 },
+                 "created": "2016-09-14T20:22:42.000+0800",
+                 "updated": "2016-09-14T20:22:42.000+0800",
+                 "started": "2016-09-14T20:22:00.000+0800",
+                 "timeSpent": "6h",
+                 "timeSpentSeconds": 21600,
+                 "id": "15887"
+             }, {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/issue/12916/worklog/15960",
+                 "author": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                     "name": "wangtao",
+                     "key": "wangtao",
+                     "emailAddress": "wangtao@iscs.com.cn",
+                     "avatarUrls": {
+                         "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                         "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                         "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                         "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                     },
+                     "displayName": "王涛",
+                     "active": true,
+                     "timeZone": "PRC"
+                 },
+                 "updateAuthor": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                     "name": "wangtao",
+                     "key": "wangtao",
+                     "emailAddress": "wangtao@iscs.com.cn",
+                     "avatarUrls": {
+                         "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                         "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                         "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                         "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                     },
+                     "displayName": "王涛",
+                     "active": true,
+                     "timeZone": "PRC"
+                 },
+                 "created": "2016-09-18T15:21:31.000+0800",
+                 "updated": "2016-09-18T15:21:31.000+0800",
+                 "started": "2016-09-17T09:01:00.000+0800",
+                 "timeSpent": "5h",
+                 "timeSpentSeconds": 18000,
+                 "id": "15960"
+             }]
+         },
+         "issuetype": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/issuetype/10004",
+             "id": "10004",
+             "description": "故事的子任务",
+             "iconUrl": "http://jira.iscs.com.cn/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+             "name": "子任务",
+             "subtask": true,
+             "avatarId": 10316
+         },
+         "timespent": 75600,
+         "project": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/project/10000",
+             "id": "10000",
+             "key": "XDW",
+             "name": "网仓3号",
+             "avatarUrls": {
+                 "48x48": "http://jira.iscs.com.cn/secure/projectavatar?avatarId=10011",
+                 "24x24": "http://jira.iscs.com.cn/secure/projectavatar?size=small&avatarId=10011",
+                 "16x16": "http://jira.iscs.com.cn/secure/projectavatar?size=xsmall&avatarId=10011",
+                 "32x32": "http://jira.iscs.com.cn/secure/projectavatar?size=medium&avatarId=10011"
+             }
+         },
+         "customfield_11000": null,
+         "aggregatetimespent": 75600,
+         "customfield_10302": null,
+         "customfield_10303": null,
+         "customfield_10701": null,
+         "customfield_10703": null,
+         "customfield_10704": null,
+         "resolutiondate": null,
+         "workratio": 50,
+         "watches": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/issue/XDW-1697/watchers",
+             "watchCount": 1,
+             "isWatching": false
+         },
+         "created": "2016-09-12T09:37:22.000+0800",
+         "customfield_10300": null,
+         "customfield_10301": null,
+         "customfield_11105": null,
+         "customfield_11106": null,
+         "updated": "2016-09-18T15:21:31.000+0800",
+         "timeoriginalestimate": 151200,
+         "description": "前端开发",
+         "customfield_11101": null,
+         "customfield_11103": {
+             "self": "http://jira.iscs.com.cn/rest/api/2/customFieldOption/10915",
+             "value": "程序BUG",
+             "id": "10915"
+         },
+         "timetracking": {
+             "originalEstimate": "42小时",
+             "remainingEstimate": "21小时",
+             "timeSpent": "21小时",
+             "originalEstimateSeconds": 151200,
+             "remainingEstimateSeconds": 75600,
+             "timeSpentSeconds": 75600
+         },
+         "customfield_11104": null,
+         "customfield_10006": null,
+         "customfield_10800": null,
+         "customfield_10801": [],
+         "customfield_10009": "0|i009q7:",
+         "attachment": [],
+         "summary": "【制作运单模板】王涛的任务",
+         "customfield_10000": null,
+         "customfield_10001": null,
+         "customfield_10002": null,
+         "customfield_10004": null,
+         "customfield_10911": ["愿景名称:     ；投资额       ；投资要求："],
+         "customfield_10912": null,
+         "duedate": null,
+         "customfield_10913": null,
+         "comment": {
+             "startAt": 0,
+             "maxResults": 0,
+             "total": 0,
+             "comments": []
+         }
+     }
+ }

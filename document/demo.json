@@ -1,0 +1,2392 @@
+ {
+     "expand": "schema,names",
+     "startAt": 0,
+     "maxResults": 100,
+     "total": 53,
+     "issues": [{
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13156",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13156",
+         "key": "XDW-1902",
+         "fields": {
+             "summary": "魏睛睛的APP注册和登陆",
+             "aggregatetimeoriginalestimate": 144000,
+             "aggregatetimeestimate": 144000,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=weijingjing",
+                 "name": "weijingjing",
+                 "key": "weijingjing",
+                 "emailAddress": "weijingjing@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10349",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10349",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10349",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10349"
+                 },
+                 "displayName": "魏睛睛",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 0,
+                 "total": 144000,
+                 "percent": 0
+             },
+             "aggregatetimespent": null,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13169",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13169",
+         "key": "XDW-1914",
+         "fields": {
+             "summary": "韩丹的支付任务",
+             "aggregatetimeoriginalestimate": 216000,
+             "aggregatetimeestimate": 120600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=handan",
+                 "name": "handan",
+                 "key": "handan",
+                 "emailAddress": "handan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=handan&avatarId=10927",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=handan&avatarId=10927",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=handan&avatarId=10927",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=handan&avatarId=10927"
+                 },
+                 "displayName": "韩丹",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 95400,
+                 "total": 216000,
+                 "percent": 44
+             },
+             "aggregatetimespent": 95400,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13170",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13170",
+         "key": "XDW-1915",
+         "fields": {
+             "summary": "陈向聚的支付任务",
+             "aggregatetimeoriginalestimate": 180000,
+             "aggregatetimeestimate": 86400,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenxiangju",
+                 "name": "chenxiangju",
+                 "key": "chenxiangju",
+                 "emailAddress": "chenxiangju@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=chenxiangju&avatarId=10972",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=chenxiangju&avatarId=10972",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=chenxiangju&avatarId=10972",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=chenxiangju&avatarId=10972"
+                 },
+                 "displayName": "陈向聚",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 93600,
+                 "total": 180000,
+                 "percent": 52
+             },
+             "aggregatetimespent": 93600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13165",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13165",
+         "key": "XDW-1910",
+         "fields": {
+             "summary": "赵肖杰的支付任务",
+             "aggregatetimeoriginalestimate": 108000,
+             "aggregatetimeestimate": 72000,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhaoxiaojie",
+                 "name": "zhaoxiaojie",
+                 "key": "zhaoxiaojie",
+                 "emailAddress": "zhaoxiaojie@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10122",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10122",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10122",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10122"
+                 },
+                 "displayName": "赵肖杰",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 36000,
+                 "total": 108000,
+                 "percent": 33
+             },
+             "aggregatetimespent": 36000,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13158",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13158",
+         "key": "XDW-1904",
+         "fields": {
+             "summary": "赵肖杰的APP注册和登录的任务",
+             "aggregatetimeoriginalestimate": 144000,
+             "aggregatetimeestimate": 100800,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhaoxiaojie",
+                 "name": "zhaoxiaojie",
+                 "key": "zhaoxiaojie",
+                 "emailAddress": "zhaoxiaojie@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10122",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10122",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10122",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10122"
+                 },
+                 "displayName": "赵肖杰",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 43200,
+                 "total": 144000,
+                 "percent": 30
+             },
+             "aggregatetimespent": 43200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12935",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12935",
+         "key": "XDW-1715",
+         "fields": {
+             "summary": "调整库存同步关于是否授权逻辑代码",
+             "aggregatetimeoriginalestimate": 14400,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenshengnan",
+                 "name": "chenshengnan",
+                 "key": "chenshengnan",
+                 "emailAddress": "chenshengnan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10342",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10342",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10342",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10342"
+                 },
+                 "displayName": "陈胜难",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 14400,
+                 "total": 14400,
+                 "percent": 100
+             },
+             "aggregatetimespent": 14400,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13192",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13192",
+         "key": "XDW-1936",
+         "fields": {
+             "summary": "詹学宝的服务范围任务",
+             "aggregatetimeoriginalestimate": 28800,
+             "aggregatetimeestimate": 28800,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhanxuebao",
+                 "name": "zhanxuebao",
+                 "key": "zhanxuebao",
+                 "emailAddress": "zhanxuebao@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=zhanxuebao&avatarId=10963",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=zhanxuebao&avatarId=10963",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=zhanxuebao&avatarId=10963",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=zhanxuebao&avatarId=10963"
+                 },
+                 "displayName": "詹学宝",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 0,
+                 "total": 28800,
+                 "percent": 0
+             },
+             "aggregatetimespent": null,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13164",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13164",
+         "key": "XDW-1909",
+         "fields": {
+             "summary": "詹学宝的支付任务",
+             "aggregatetimeoriginalestimate": 180000,
+             "aggregatetimeestimate": 165600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhanxuebao",
+                 "name": "zhanxuebao",
+                 "key": "zhanxuebao",
+                 "emailAddress": "zhanxuebao@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=zhanxuebao&avatarId=10963",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=zhanxuebao&avatarId=10963",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=zhanxuebao&avatarId=10963",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=zhanxuebao&avatarId=10963"
+                 },
+                 "displayName": "詹学宝",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 14400,
+                 "total": 180000,
+                 "percent": 8
+             },
+             "aggregatetimespent": 14400,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13144",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13144",
+         "key": "XDW-1891",
+         "fields": {
+             "summary": "詹学宝的App注册和登录任务",
+             "aggregatetimeoriginalestimate": 144000,
+             "aggregatetimeestimate": 122400,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhanxuebao",
+                 "name": "zhanxuebao",
+                 "key": "zhanxuebao",
+                 "emailAddress": "zhanxuebao@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=zhanxuebao&avatarId=10963",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=zhanxuebao&avatarId=10963",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=zhanxuebao&avatarId=10963",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=zhanxuebao&avatarId=10963"
+                 },
+                 "displayName": "詹学宝",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 21600,
+                 "total": 144000,
+                 "percent": 15
+             },
+             "aggregatetimespent": 21600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13079",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13079",
+         "key": "XDW-1831",
+         "fields": {
+             "summary": "詹学宝的 研究iOS原生界面与h5交互 的任务",
+             "aggregatetimeoriginalestimate": 115200,
+             "aggregatetimeestimate": 57600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhanxuebao",
+                 "name": "zhanxuebao",
+                 "key": "zhanxuebao",
+                 "emailAddress": "zhanxuebao@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=zhanxuebao&avatarId=10963",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=zhanxuebao&avatarId=10963",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=zhanxuebao&avatarId=10963",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=zhanxuebao&avatarId=10963"
+                 },
+                 "displayName": "詹学宝",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 57600,
+                 "total": 115200,
+                 "percent": 50
+             },
+             "aggregatetimespent": 57600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13166",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13166",
+         "key": "XDW-1911",
+         "fields": {
+             "summary": "解俊的支付任务",
+             "aggregatetimeoriginalestimate": 288000,
+             "aggregatetimeestimate": 196200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=xiejun",
+                 "name": "xiejun",
+                 "key": "xiejun",
+                 "emailAddress": "xiejun@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=xiejun&avatarId=10932",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=xiejun&avatarId=10932",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=xiejun&avatarId=10932",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=xiejun&avatarId=10932"
+                 },
+                 "displayName": "解俊",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 91800,
+                 "total": 288000,
+                 "percent": 31
+             },
+             "aggregatetimespent": 91800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12974",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12974",
+         "key": "XDW-1752",
+         "fields": {
+             "summary": "解俊的拣选开发任务",
+             "aggregatetimeoriginalestimate": 72000,
+             "aggregatetimeestimate": 21600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=xiejun",
+                 "name": "xiejun",
+                 "key": "xiejun",
+                 "emailAddress": "xiejun@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=xiejun&avatarId=10932",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=xiejun&avatarId=10932",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=xiejun&avatarId=10932",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=xiejun&avatarId=10932"
+                 },
+                 "displayName": "解俊",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 50400,
+                 "total": 72000,
+                 "percent": 70
+             },
+             "aggregatetimespent": 50400,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13199",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13199",
+         "key": "XDW-1943",
+         "fields": {
+             "summary": "蔡宇青的注册登录子任务",
+             "aggregatetimeoriginalestimate": 252000,
+             "aggregatetimeestimate": 219600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=caiyuqing",
+                 "name": "caiyuqing",
+                 "key": "caiyuqing",
+                 "emailAddress": "caiyuqing@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=caiyuqing&avatarId=10603",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=caiyuqing&avatarId=10603",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=caiyuqing&avatarId=10603",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=caiyuqing&avatarId=10603"
+                 },
+                 "displayName": "蔡宇青",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 32400,
+                 "total": 252000,
+                 "percent": 12
+             },
+             "aggregatetimespent": 32400,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13190",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13190",
+         "key": "XDW-1934",
+         "fields": {
+             "summary": "蔡宇青的服务范围任务",
+             "aggregatetimeoriginalestimate": 72000,
+             "aggregatetimeestimate": 72000,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=caiyuqing",
+                 "name": "caiyuqing",
+                 "key": "caiyuqing",
+                 "emailAddress": "caiyuqing@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=caiyuqing&avatarId=10603",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=caiyuqing&avatarId=10603",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=caiyuqing&avatarId=10603",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=caiyuqing&avatarId=10603"
+                 },
+                 "displayName": "蔡宇青",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 0,
+                 "total": 72000,
+                 "percent": 0
+             },
+             "aggregatetimespent": null,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13171",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13171",
+         "key": "XDW-1916",
+         "fields": {
+             "summary": "蔡宇青的支付任务",
+             "aggregatetimeoriginalestimate": 180000,
+             "aggregatetimeestimate": 180000,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=caiyuqing",
+                 "name": "caiyuqing",
+                 "key": "caiyuqing",
+                 "emailAddress": "caiyuqing@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=caiyuqing&avatarId=10603",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=caiyuqing&avatarId=10603",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=caiyuqing&avatarId=10603",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=caiyuqing&avatarId=10603"
+                 },
+                 "displayName": "蔡宇青",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 0,
+                 "total": 180000,
+                 "percent": 0
+             },
+             "aggregatetimespent": null,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13161",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13161",
+         "key": "XDW-1907",
+         "fields": {
+             "summary": "程霄宇的确定服务范围任务",
+             "aggregatetimeoriginalestimate": 86400,
+             "aggregatetimeestimate": 7200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chengxy",
+                 "name": "chengxy",
+                 "key": "chengxy",
+                 "emailAddress": "chengxy@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=chengxy&avatarId=10986",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=chengxy&avatarId=10986",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=chengxy&avatarId=10986",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=chengxy&avatarId=10986"
+                 },
+                 "displayName": "程霄宇",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 79200,
+                 "total": 86400,
+                 "percent": 91
+             },
+             "aggregatetimespent": 79200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13183",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13183",
+         "key": "XDW-1927",
+         "fields": {
+             "summary": "王涛的App注册和登录任务",
+             "aggregatetimeoriginalestimate": 86400,
+             "aggregatetimeestimate": 50400,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangtao",
+                 "name": "wangtao",
+                 "key": "wangtao",
+                 "emailAddress": "wangtao@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10335",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10335",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10335",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10335"
+                 },
+                 "displayName": "王涛",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 36000,
+                 "total": 86400,
+                 "percent": 41
+             },
+             "aggregatetimespent": 36000,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13188",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13188",
+         "key": "XDW-1932",
+         "fields": {
+             "summary": "王寅升的服务范围任务",
+             "aggregatetimeoriginalestimate": 108000,
+             "aggregatetimeestimate": 50400,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangyinsheng",
+                 "name": "wangyinsheng",
+                 "key": "wangyinsheng",
+                 "emailAddress": "wangyinsheng@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=wangyinsheng&avatarId=10953",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=wangyinsheng&avatarId=10953",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=wangyinsheng&avatarId=10953",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=wangyinsheng&avatarId=10953"
+                 },
+                 "displayName": "王寅升",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 57600,
+                 "total": 108000,
+                 "percent": 53
+             },
+             "aggregatetimespent": 57600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13168",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13168",
+         "key": "XDW-1913",
+         "fields": {
+             "summary": "王亚飞的支付任务",
+             "aggregatetimeoriginalestimate": 180000,
+             "aggregatetimeestimate": 97200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=wangyafei",
+                 "name": "wangyafei",
+                 "key": "wangyafei",
+                 "emailAddress": "wangyafei@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10122",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10122",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10122",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10122"
+                 },
+                 "displayName": "王亚飞",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 82800,
+                 "total": 180000,
+                 "percent": 46
+             },
+             "aggregatetimespent": 82800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12975",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12975",
+         "key": "XDW-1753",
+         "fields": {
+             "summary": "永立的拣选测试任务",
+             "aggregatetimeoriginalestimate": 72000,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhuangyongli",
+                 "name": "zhuangyongli",
+                 "key": "zhuangyongli",
+                 "emailAddress": "zhuangyongli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10346",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10346",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10346",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10346"
+                 },
+                 "displayName": "庄永立",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 144000,
+                 "total": 144000,
+                 "percent": 100
+             },
+             "aggregatetimespent": 144000,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13063",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13063",
+         "key": "XDW-1827",
+         "fields": {
+             "summary": "查找kafka无法消费的bug",
+             "aggregatetimeoriginalestimate": 10800,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenshengnan",
+                 "name": "chenshengnan",
+                 "key": "chenshengnan",
+                 "emailAddress": "chenshengnan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10342",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10342",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10342",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10342"
+                 },
+                 "displayName": "陈胜难",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 10800,
+                 "total": 10800,
+                 "percent": 100
+             },
+             "aggregatetimespent": 10800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13152",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13152",
+         "key": "XDW-1898",
+         "fields": {
+             "summary": "李宇的确定服务范围任务",
+             "aggregatetimeoriginalestimate": 151200,
+             "aggregatetimeestimate": 97200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=liyu",
+                 "name": "liyu",
+                 "key": "liyu",
+                 "emailAddress": "liyu@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10346",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10346",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10346",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10346"
+                 },
+                 "displayName": "李宇",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 54000,
+                 "total": 151200,
+                 "percent": 35
+             },
+             "aggregatetimespent": 54000,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13146",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13146",
+         "key": "XDW-1892",
+         "fields": {
+             "summary": "张良的App注册和登录任务",
+             "aggregatetimeoriginalestimate": 172800,
+             "aggregatetimeestimate": 79200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhangliang",
+                 "name": "zhangliang",
+                 "key": "zhangliang",
+                 "emailAddress": "zhangliang@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=zhangliang&avatarId=10967",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=zhangliang&avatarId=10967",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=zhangliang&avatarId=10967",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=zhangliang&avatarId=10967"
+                 },
+                 "displayName": "张良",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 93600,
+                 "total": 172800,
+                 "percent": 54
+             },
+             "aggregatetimespent": 93600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12902",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12902",
+         "key": "XDW-1684",
+         "fields": {
+             "summary": "库存同步单元测试代码调整",
+             "aggregatetimeoriginalestimate": 7200,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenshengnan",
+                 "name": "chenshengnan",
+                 "key": "chenshengnan",
+                 "emailAddress": "chenshengnan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10342",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10342",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10342",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10342"
+                 },
+                 "displayName": "陈胜难",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 7200,
+                 "total": 7200,
+                 "percent": 100
+             },
+             "aggregatetimespent": 7200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13173",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13173",
+         "key": "XDW-1918",
+         "fields": {
+             "summary": "庄永立的支付任务",
+             "aggregatetimeoriginalestimate": 180000,
+             "aggregatetimeestimate": 100800,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhuangyongli",
+                 "name": "zhuangyongli",
+                 "key": "zhuangyongli",
+                 "emailAddress": "zhuangyongli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10346",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10346",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10346",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10346"
+                 },
+                 "displayName": "庄永立",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 79200,
+                 "total": 180000,
+                 "percent": 44
+             },
+             "aggregatetimespent": 79200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13290",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13290",
+         "key": "XDW-2027",
+         "fields": {
+             "summary": "岳天壮的APP注册和登录的测试任务",
+             "aggregatetimeoriginalestimate": 144000,
+             "aggregatetimeestimate": 118800,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=yuetianzhuang",
+                 "name": "yuetianzhuang",
+                 "key": "yuetianzhuang",
+                 "emailAddress": "yuetianzhuang@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=yuetianzhuang&avatarId=11600",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=yuetianzhuang&avatarId=11600",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=yuetianzhuang&avatarId=11600",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=yuetianzhuang&avatarId=11600"
+                 },
+                 "displayName": "岳天壮",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 25200,
+                 "total": 144000,
+                 "percent": 17
+             },
+             "aggregatetimespent": 25200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13193",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13193",
+         "key": "XDW-1937",
+         "fields": {
+             "summary": "周方圆的服务范围任务",
+             "aggregatetimeoriginalestimate": 57600,
+             "aggregatetimeestimate": 14400,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhoufangyuan",
+                 "name": "zhoufangyuan",
+                 "key": "zhoufangyuan",
+                 "emailAddress": "zhoufangyuan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10349",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10349",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10349",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10349"
+                 },
+                 "displayName": "周方圆",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 43200,
+                 "total": 57600,
+                 "percent": 75
+             },
+             "aggregatetimespent": 43200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13167",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13167",
+         "key": "XDW-1912",
+         "fields": {
+             "summary": "周方圆的支付任务",
+             "aggregatetimeoriginalestimate": 180000,
+             "aggregatetimeestimate": 165600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhoufangyuan",
+                 "name": "zhoufangyuan",
+                 "key": "zhoufangyuan",
+                 "emailAddress": "zhoufangyuan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10349",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10349",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10349",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10349"
+                 },
+                 "displayName": "周方圆",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 14400,
+                 "total": 180000,
+                 "percent": 8
+             },
+             "aggregatetimespent": 14400,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13253",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13253",
+         "key": "XDW-1996",
+         "fields": {
+             "summary": "史晓园的确定服务范围任务",
+             "aggregatetimeoriginalestimate": 57600,
+             "aggregatetimeestimate": 36000,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=shixiaoyuan",
+                 "name": "shixiaoyuan",
+                 "key": "shixiaoyuan",
+                 "emailAddress": "shixiaoyuan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=shixiaoyuan&avatarId=10946",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=shixiaoyuan&avatarId=10946",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=shixiaoyuan&avatarId=10946",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=shixiaoyuan&avatarId=10946"
+                 },
+                 "displayName": "史晓园",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 21600,
+                 "total": 57600,
+                 "percent": 37
+             },
+             "aggregatetimespent": 21600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13250",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13250",
+         "key": "XDW-1993",
+         "fields": {
+             "summary": "史晓园的注册和登录任务",
+             "aggregatetimeoriginalestimate": 36000,
+             "aggregatetimeestimate": 7200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=shixiaoyuan",
+                 "name": "shixiaoyuan",
+                 "key": "shixiaoyuan",
+                 "emailAddress": "shixiaoyuan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=shixiaoyuan&avatarId=10946",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=shixiaoyuan&avatarId=10946",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=shixiaoyuan&avatarId=10946",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=shixiaoyuan&avatarId=10946"
+                 },
+                 "displayName": "史晓园",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 28800,
+                 "total": 36000,
+                 "percent": 80
+             },
+             "aggregatetimespent": 28800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13255",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13255",
+         "key": "XDW-1997",
+         "fields": {
+             "summary": "史晓园的提交保证金任务",
+             "aggregatetimeoriginalestimate": 57600,
+             "aggregatetimeestimate": 43200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=shixiaoyuan",
+                 "name": "shixiaoyuan",
+                 "key": "shixiaoyuan",
+                 "emailAddress": "shixiaoyuan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=shixiaoyuan&avatarId=10946",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=shixiaoyuan&avatarId=10946",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=shixiaoyuan&avatarId=10946",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=shixiaoyuan&avatarId=10946"
+                 },
+                 "displayName": "史晓园",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 14400,
+                 "total": 57600,
+                 "percent": 25
+             },
+             "aggregatetimespent": 14400,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12833",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12833",
+         "key": "XDW-1632",
+         "fields": {
+             "summary": "【拣选任务】调算法的拣选任务jar包",
+             "aggregatetimeoriginalestimate": 86400,
+             "aggregatetimeestimate": 25200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=xiejun",
+                 "name": "xiejun",
+                 "key": "xiejun",
+                 "emailAddress": "xiejun@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=xiejun&avatarId=10932",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=xiejun&avatarId=10932",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=xiejun&avatarId=10932",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=xiejun&avatarId=10932"
+                 },
+                 "displayName": "解俊",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 61200,
+                 "total": 86400,
+                 "percent": 70
+             },
+             "aggregatetimespent": 61200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12835",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12835",
+         "key": "XDW-1634",
+         "fields": {
+             "summary": "【拣选任务】测试",
+             "aggregatetimeoriginalestimate": 86400,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhuangyongli",
+                 "name": "zhuangyongli",
+                 "key": "zhuangyongli",
+                 "emailAddress": "zhuangyongli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10346",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10346",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10346",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10346"
+                 },
+                 "displayName": "庄永立",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 86400,
+                 "total": 86400,
+                 "percent": 100
+             },
+             "aggregatetimespent": 86400,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12832",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12832",
+         "key": "XDW-1631",
+         "fields": {
+             "summary": "【拣选任务】建库位表、库位库存表、任务信息表",
+             "aggregatetimeoriginalestimate": 28800,
+             "aggregatetimeestimate": 21600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=xiejun",
+                 "name": "xiejun",
+                 "key": "xiejun",
+                 "emailAddress": "xiejun@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=xiejun&avatarId=10932",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=xiejun&avatarId=10932",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=xiejun&avatarId=10932",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=xiejun&avatarId=10932"
+                 },
+                 "displayName": "解俊",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 7200,
+                 "total": 28800,
+                 "percent": 25
+             },
+             "aggregatetimespent": 7200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12834",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12834",
+         "key": "XDW-1633",
+         "fields": {
+             "summary": "【拣选任务】写锁定库存接口",
+             "aggregatetimeoriginalestimate": 86400,
+             "aggregatetimeestimate": 75600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=xiejun",
+                 "name": "xiejun",
+                 "key": "xiejun",
+                 "emailAddress": "xiejun@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=xiejun&avatarId=10932",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=xiejun&avatarId=10932",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=xiejun&avatarId=10932",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=xiejun&avatarId=10932"
+                 },
+                 "displayName": "解俊",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 10800,
+                 "total": 86400,
+                 "percent": 12
+             },
+             "aggregatetimespent": 10800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12831",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12831",
+         "key": "XDW-1630",
+         "fields": {
+             "summary": "【拣选任务】产品设计",
+             "aggregatetimeoriginalestimate": 86400,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenxiangju",
+                 "name": "chenxiangju",
+                 "key": "chenxiangju",
+                 "emailAddress": "chenxiangju@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=chenxiangju&avatarId=10972",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=chenxiangju&avatarId=10972",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=chenxiangju&avatarId=10972",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=chenxiangju&avatarId=10972"
+                 },
+                 "displayName": "陈向聚",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 208800,
+                 "total": 208800,
+                 "percent": 100
+             },
+             "aggregatetimespent": 208800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12824",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12824",
+         "key": "XDW-1623",
+         "fields": {
+             "summary": "【库存同步】根据开发方案确认",
+             "aggregatetimeoriginalestimate": 115200,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenshengnan",
+                 "name": "chenshengnan",
+                 "key": "chenshengnan",
+                 "emailAddress": "chenshengnan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10342",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10342",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10342",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10342"
+                 },
+                 "displayName": "陈胜难",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 151200,
+                 "total": 151200,
+                 "percent": 100
+             },
+             "aggregatetimespent": 151200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12746",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12746",
+         "key": "XDW-1599",
+         "fields": {
+             "summary": "【库存同步】服务端测试",
+             "aggregatetimeoriginalestimate": 72000,
+             "aggregatetimeestimate": 43200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=yuetianzhuang",
+                 "name": "yuetianzhuang",
+                 "key": "yuetianzhuang",
+                 "emailAddress": "yuetianzhuang@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=yuetianzhuang&avatarId=11600",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=yuetianzhuang&avatarId=11600",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=yuetianzhuang&avatarId=11600",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=yuetianzhuang&avatarId=11600"
+                 },
+                 "displayName": "岳天壮",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 28800,
+                 "total": 72000,
+                 "percent": 40
+             },
+             "aggregatetimespent": 28800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12743",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12743",
+         "key": "XDW-1596",
+         "fields": {
+             "summary": "【库存同步】后端开发方案的确认",
+             "aggregatetimeoriginalestimate": 10800,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenshengnan",
+                 "name": "chenshengnan",
+                 "key": "chenshengnan",
+                 "emailAddress": "chenshengnan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10342",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10342",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10342",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10342"
+                 },
+                 "displayName": "陈胜难",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 10800,
+                 "total": 10800,
+                 "percent": 100
+             },
+             "aggregatetimespent": 10800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12825",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12825",
+         "key": "XDW-1624",
+         "fields": {
+             "summary": "【库存同步】后端开发前段开关控制变更接口",
+             "aggregatetimeoriginalestimate": 28800,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=handan",
+                 "name": "handan",
+                 "key": "handan",
+                 "emailAddress": "handan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=handan&avatarId=10927",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=handan&avatarId=10927",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=handan&avatarId=10927",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=handan&avatarId=10927"
+                 },
+                 "displayName": "韩丹",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 115200,
+                 "total": 115200,
+                 "percent": 100
+             },
+             "aggregatetimespent": 115200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12748",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12748",
+         "key": "XDW-1601",
+         "fields": {
+             "summary": "【库存同步】iOS测试",
+             "aggregatetimeoriginalestimate": 129600,
+             "aggregatetimeestimate": 21600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=yuetianzhuang",
+                 "name": "yuetianzhuang",
+                 "key": "yuetianzhuang",
+                 "emailAddress": "yuetianzhuang@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=yuetianzhuang&avatarId=11600",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=yuetianzhuang&avatarId=11600",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=yuetianzhuang&avatarId=11600",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=yuetianzhuang&avatarId=11600"
+                 },
+                 "displayName": "岳天壮",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 108000,
+                 "total": 129600,
+                 "percent": 83
+             },
+             "aggregatetimespent": 108000,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12744",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12744",
+         "key": "XDW-1597",
+         "fields": {
+             "summary": "【库存同步】iOS开发",
+             "aggregatetimeoriginalestimate": 14400,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhaoxiaojie",
+                 "name": "zhaoxiaojie",
+                 "key": "zhaoxiaojie",
+                 "emailAddress": "zhaoxiaojie@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10122",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10122",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10122",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10122"
+                 },
+                 "displayName": "赵肖杰",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 25200,
+                 "total": 25200,
+                 "percent": 100
+             },
+             "aggregatetimespent": 25200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12745",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12745",
+         "key": "XDW-1598",
+         "fields": {
+             "summary": "【库存同步】Android页面设计",
+             "aggregatetimeoriginalestimate": 72000,
+             "aggregatetimeestimate": 43200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhoufangyuan",
+                 "name": "zhoufangyuan",
+                 "key": "zhoufangyuan",
+                 "emailAddress": "zhoufangyuan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10349",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10349",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10349",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10349"
+                 },
+                 "displayName": "周方圆",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 118800,
+                 "total": 162000,
+                 "percent": 73
+             },
+             "aggregatetimespent": 118800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12747",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12747",
+         "key": "XDW-1600",
+         "fields": {
+             "summary": "【库存同步】Android测试",
+             "aggregatetimeoriginalestimate": 86400,
+             "aggregatetimeestimate": 57600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=yuetianzhuang",
+                 "name": "yuetianzhuang",
+                 "key": "yuetianzhuang",
+                 "emailAddress": "yuetianzhuang@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=yuetianzhuang&avatarId=11600",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=yuetianzhuang&avatarId=11600",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=yuetianzhuang&avatarId=11600",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=yuetianzhuang&avatarId=11600"
+                 },
+                 "displayName": "岳天壮",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 28800,
+                 "total": 86400,
+                 "percent": 33
+             },
+             "aggregatetimespent": 28800,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13311",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13311",
+         "key": "XDW-2044",
+         "fields": {
+             "summary": "【iOS】詹学宝制定单张类型卡片的任务",
+             "aggregatetimeoriginalestimate": 57600,
+             "aggregatetimeestimate": 57600,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=zhanxuebao",
+                 "name": "zhanxuebao",
+                 "key": "zhanxuebao",
+                 "emailAddress": "zhanxuebao@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=zhanxuebao&avatarId=10963",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=zhanxuebao&avatarId=10963",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=zhanxuebao&avatarId=10963",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=zhanxuebao&avatarId=10963"
+                 },
+                 "displayName": "詹学宝",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 0,
+                 "total": 57600,
+                 "percent": 0
+             },
+             "aggregatetimespent": null,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10105",
+                 "description": "task",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[待处理]",
+                 "id": "10105",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/2",
+                     "id": 2,
+                     "key": "new",
+                     "colorName": "blue-gray",
+                     "name": "待办"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "12868",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/12868",
+         "key": "XDW-1657",
+         "fields": {
+             "summary": "[XDW-1623]库存同步",
+             "aggregatetimeoriginalestimate": 28800,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenshengnan",
+                 "name": "chenshengnan",
+                 "key": "chenshengnan",
+                 "emailAddress": "chenshengnan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10342",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10342",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10342",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10342"
+                 },
+                 "displayName": "陈胜难",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 57600,
+                 "total": 57600,
+                 "percent": 100
+             },
+             "aggregatetimespent": 57600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13324",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13324",
+         "key": "XDW-2057",
+         "fields": {
+             "summary": "UE和产品讨论并确定设计",
+             "aggregatetimeoriginalestimate": 7200,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=sunli",
+                 "name": "sunli",
+                 "key": "sunli",
+                 "emailAddress": "sunli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=sunli&avatarId=11700",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=sunli&avatarId=11700",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=sunli&avatarId=11700",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=sunli&avatarId=11700"
+                 },
+                 "displayName": "孙力",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 3600,
+                 "total": 3600,
+                 "percent": 100
+             },
+             "aggregatetimespent": 3600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13322",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13322",
+         "key": "XDW-2055",
+         "fields": {
+             "summary": "UE和产品讨论并确定设计",
+             "aggregatetimeoriginalestimate": 36000,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=sunli",
+                 "name": "sunli",
+                 "key": "sunli",
+                 "emailAddress": "sunli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=sunli&avatarId=11700",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=sunli&avatarId=11700",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=sunli&avatarId=11700",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=sunli&avatarId=11700"
+                 },
+                 "displayName": "孙力",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 36000,
+                 "total": 36000,
+                 "percent": 100
+             },
+             "aggregatetimespent": 36000,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13333",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13333",
+         "key": "XDW-2066",
+         "fields": {
+             "summary": "UE和产品讨论并确定设计",
+             "aggregatetimeoriginalestimate": 7200,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=sunli",
+                 "name": "sunli",
+                 "key": "sunli",
+                 "emailAddress": "sunli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=sunli&avatarId=11700",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=sunli&avatarId=11700",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=sunli&avatarId=11700",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=sunli&avatarId=11700"
+                 },
+                 "displayName": "孙力",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 7200,
+                 "total": 7200,
+                 "percent": 100
+             },
+             "aggregatetimespent": 7200,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13303",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13303",
+         "key": "XDW-2036",
+         "fields": {
+             "summary": "UE优化原型",
+             "aggregatetimeoriginalestimate": 3600,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=sunli",
+                 "name": "sunli",
+                 "key": "sunli",
+                 "emailAddress": "sunli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=sunli&avatarId=11700",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=sunli&avatarId=11700",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=sunli&avatarId=11700",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=sunli&avatarId=11700"
+                 },
+                 "displayName": "孙力",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 3600,
+                 "total": 3600,
+                 "percent": 100
+             },
+             "aggregatetimespent": 3600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13320",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13320",
+         "key": "XDW-2053",
+         "fields": {
+             "summary": "UE交互优化",
+             "aggregatetimeoriginalestimate": 3600,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=sunli",
+                 "name": "sunli",
+                 "key": "sunli",
+                 "emailAddress": "sunli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=sunli&avatarId=11700",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=sunli&avatarId=11700",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=sunli&avatarId=11700",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=sunli&avatarId=11700"
+                 },
+                 "displayName": "孙力",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 3600,
+                 "total": 3600,
+                 "percent": 100
+             },
+             "aggregatetimespent": 3600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13321",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13321",
+         "key": "XDW-2054",
+         "fields": {
+             "summary": "UE交互优化",
+             "aggregatetimeoriginalestimate": 36000,
+             "aggregatetimeestimate": 0,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=sunli",
+                 "name": "sunli",
+                 "key": "sunli",
+                 "emailAddress": "sunli@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?ownerId=sunli&avatarId=11700",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&ownerId=sunli&avatarId=11700",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&ownerId=sunli&avatarId=11700",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&ownerId=sunli&avatarId=11700"
+                 },
+                 "displayName": "孙力",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 36000,
+                 "total": 36000,
+                 "percent": 100
+             },
+             "aggregatetimespent": 36000,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10118",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[已完成]",
+                 "id": "10118",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/3",
+                     "id": 3,
+                     "key": "done",
+                     "colorName": "green",
+                     "name": "Done"
+                 }
+             }
+         }
+     }, {
+         "expand": "operations,versionedRepresentations,editmeta,changelog,transitions,renderedFields",
+         "id": "13187",
+         "self": "http://jira.iscs.com.cn/rest/api/2/issue/13187",
+         "key": "XDW-1931",
+         "fields": {
+             "summary": "App注册和登录（陈胜难）",
+             "aggregatetimeoriginalestimate": 172800,
+             "aggregatetimeestimate": 79200,
+             "assignee": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/user?username=chenshengnan",
+                 "name": "chenshengnan",
+                 "key": "chenshengnan",
+                 "emailAddress": "chenshengnan@iscs.com.cn",
+                 "avatarUrls": {
+                     "48x48": "http://jira.iscs.com.cn/secure/useravatar?avatarId=10342",
+                     "24x24": "http://jira.iscs.com.cn/secure/useravatar?size=small&avatarId=10342",
+                     "16x16": "http://jira.iscs.com.cn/secure/useravatar?size=xsmall&avatarId=10342",
+                     "32x32": "http://jira.iscs.com.cn/secure/useravatar?size=medium&avatarId=10342"
+                 },
+                 "displayName": "陈胜难",
+                 "active": true,
+                 "timeZone": "PRC"
+             },
+             "aggregateprogress": {
+                 "progress": 93600,
+                 "total": 172800,
+                 "percent": 54
+             },
+             "aggregatetimespent": 93600,
+             "status": {
+                 "self": "http://jira.iscs.com.cn/rest/api/2/status/10117",
+                 "description": "story，bug",
+                 "iconUrl": "http://jira.iscs.com.cn/images/icons/statuses/generic.png",
+                 "name": "[处理中]",
+                 "id": "10117",
+                 "statusCategory": {
+                     "self": "http://jira.iscs.com.cn/rest/api/2/statuscategory/4",
+                     "id": 4,
+                     "key": "indeterminate",
+                     "colorName": "yellow",
+                     "name": "进行中"
+                 }
+             }
+         }
+     }]
+ }

@@ -1,0 +1,41 @@
+{
+  "name": "jira-data-analyzing",
+  "version": "1.0.0",
+  "description": "jira data analyzing",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@192.168.6.115:7999/utl/report.git"
+  },
+  "keywords": [
+    "jira",
+    "report"
+  ],
+  "author": "iscs",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "eventproxy": "^0.3.5",
+    "express": "^4.14.0",
+    "hbs": "^4.0.1",
+    "lodash": "^4.16.1",
+    "log4js": "^0.6.38",
+    "moment": "^2.15.1",
+    "node-rest-client": "^2.0.1",
+    "oauth": "^0.9.14",
+    "request": "^2.75.0",
+    "response-time": "^2.3.1",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.0",
+    "nodemon": "^1.10.2",
+    "should": "^11.1.0",
+    "supertest": "^2.0.0"
+  }
+}

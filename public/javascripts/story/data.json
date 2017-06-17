@@ -1,0 +1,145 @@
+{
+    "changes": {
+        "1469200323000": [{
+            "key": "XDW-1315",
+            "statC": {},
+            "column": {
+                "notDone": true,
+                "newStatus": "10105"
+            }
+        }],
+        "1469200735000": [{
+            "key": "XDW-1323",
+            "column": {
+                "notDone": true,
+                "newStatus": "10105"
+            }
+        }],
+        "1469200823000": [{
+            "key": "XDW-1325",
+            "statC": {},
+            "column": {
+                "notDone": true,
+                "newStatus": "10105"
+            }
+        }],
+        "1469563592000": [{
+            "key": "XDW-1323",
+            "statC": {
+                "newValue": 60.0
+            }
+        }],
+        "1470249851000": [{
+            "key": "XDW-1315",
+            "added": true
+        }],
+        "1470249863000": [{
+            "key": "XDW-1325",
+            "added": true
+        }],
+        "1470252449000": [{
+            "key": "XDW-1323",
+            "added": true
+        }],
+        "1470906183000": [{
+            "key": "XDW-1315",
+            "column": {
+                "notDone": false
+            }
+        }],
+        "1470906191000": [{
+            "key": "XDW-1325",
+            "column": {
+                "notDone": false
+            }
+        }],
+        "1470906198000": [{
+            "key": "XDW-1323",
+            "column": {
+                "notDone": false
+            }
+        }],
+        "1471612274000": [{
+            "key": "XDW-1315",
+            "column": {
+                "done": true,
+                "newStatus": "10118"
+            }
+        }],
+        "1471612288000": [{
+            "key": "XDW-1325",
+            "column": {
+                "done": true,
+                "newStatus": "10118"
+            }
+        }],
+        "1471613623000": [{
+            "key": "XDW-1323",
+            "column": {
+                "notDone": true,
+                "newStatus": "10117"
+            }
+        }],
+        "1471613733000": [{
+            "key": "XDW-1323",
+            "column": {
+                "notDone": false,
+                "done": true,
+                "newStatus": "10118"
+            }
+        }]
+    },
+    "startTime": 1470344058127,
+    "endTime": 1470946980000,
+    "completeTime": 1471860524967,
+    "now": 1474711113560,
+    "statisticField": {
+        "typeId": "field",
+        "fieldId": "customfield_10109",
+        "id": "field_customfield_10109",
+        "name": "估算总工作量[小时]",
+        "isValid": true,
+        "isEnabled": true,
+        "renderer": "number"
+    },
+    "issueToParentKeys": {},
+    "workRateData": {
+        "timezone": "Asia/Shanghai",
+        "rates": [{
+            "start": 1470344058127,
+            "end": 1470528000000,
+            "rate": 1
+        }, {
+            "start": 1470528000000,
+            "end": 1470614400000,
+            "rate": 0
+        }, {
+            "start": 1470614400000,
+            "end": 1471132800000,
+            "rate": 1
+        }, {
+            "start": 1471132800000,
+            "end": 1471219200000,
+            "rate": 0
+        }, {
+            "start": 1471219200000,
+            "end": 1471737600000,
+            "rate": 1
+        }, {
+            "start": 1471737600000,
+            "end": 1471824000000,
+            "rate": 0
+        }, {
+            "start": 1471824000000,
+            "end": 1471860524967,
+            "rate": 1
+        }]
+    },
+    "openCloseChanges": {
+        "1471860524969": [{
+            "userDisplayNameHtml": "<a class=\"user-hover\" rel=\"lihaixing\" id=\"_lihaixing\" href=\"/secure/ViewProfile.jspa?name=lihaixing\">李海星</a>",
+            "operation": "CLOSE"
+        }]
+    },
+    "lastUserWhoClosedHtml": "<a class=\"user-hover\" rel=\"lihaixing\" id=\"_lihaixing\" href=\"/secure/ViewProfile.jspa?name=lihaixing\">李海星</a>"
+}
